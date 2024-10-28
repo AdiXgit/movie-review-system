@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import SearchBar from './SearchBar';
 import MovieList from './MovieList';
+import './App.css'
 
 const App = () => {
   const [query, setQuery] = useState('');
